@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin">
+
+    <Button
+        android:id ="@+id/appwidget_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Round Button"
+        android:background="@drawable/circle_buttom"
+        android:padding="15dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

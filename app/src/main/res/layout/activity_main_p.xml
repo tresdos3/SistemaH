@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tresdos.com.sistemah.MainPActivity">
+
+    <TextView
+        android:id="@+id/txtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="79dp"
+        android:layout_marginBottom="57dp"
+        android:layout_above="@+id/txtNombre"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="217dp"
+        android:layout_marginBottom="64dp"
+        android:layout_above="@+id/txtEmail"
+        android:layout_alignStart="@+id/txtEmail" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="287dp"
+        android:layout_marginBottom="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="145dp"
+        android:layout_above="@+id/btnLogout"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id ="@+id/btn_alerta"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Inactivo"
+        android:background="@drawable/circle_buttom"
+        android:padding="15dp"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnLogout" />
+
+</RelativeLayout>

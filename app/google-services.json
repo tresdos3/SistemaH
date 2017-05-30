@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "815436501307",
+    "firebase_url": "https://controlparentalapp.firebaseio.com",
+    "project_id": "controlparentalapp",
+    "storage_bucket": "controlparentalapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815436501307:android:038db082392755aa",
+        "android_client_info": {
+          "package_name": "tresdos.com.sistemah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815436501307-kiqf5thik9ai0hjctjktv61gbk49rhki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tresdos.com.sistemah",
+            "certificate_hash": "bea8ccf68bca95149260d0449213c0ece7c17cd5"
+          }
+        },
+        {
+          "client_id": "815436501307-mmfqi8fpb36q6kls2jk58tb1vumfrnfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAycHnwRtKNcAZAAmTYjzti6vY9_Wj43vY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815436501307-mmfqi8fpb36q6kls2jk58tb1vumfrnfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
